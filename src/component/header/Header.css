@@ -2,16 +2,17 @@
     /* background-color: blue; */
     /* height: 500px; */
     width: 100%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin-right: 20px;
     
 
 }
 #title{
     color: white;
+    /* border: 1px solid black; */
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 18px;
-    margin: 9px 10px 7px 35px;
+    margin: 3px 37px 20px 28px;
     
      
 }
@@ -25,7 +26,7 @@ span{
 }
 .col1{
     
-    width:25%;
+    width:325px;
     /* background-color: red; */
     background-color: #367fa9;
 }
@@ -49,11 +50,12 @@ span{
 .menu{
     margin: 14px 0 0 10px;
     color: white;
+    /* border: 1px solid black; */
 }
 .logo{
     width: 20%;
     height: 50px;   
     float: right;
-    margin-left: 20px;
+    margin: -51px 0px 7px 7px;
     border: 1px solid black ;
 }
