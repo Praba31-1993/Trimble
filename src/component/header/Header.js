@@ -1,28 +1,27 @@
 import React, {useState, useContext, createContext} from "react";
 import "./Header.css";
-import Logo from "../../assets/Logo.png"
+// import Logo from "../../assets/Logo.png"
 import MenuIcon from '@mui/icons-material/Menu';
 import Content from "../content/Content";
-import { ContextData } from "../../App";
+// import { ContextData } from "../../App";
 export const ContextValueData = createContext()
 
 export default function Header() {
-  const Value = useContext(ContextData)
+  // const Value = useContext(ContextData)
   // const [opn, setOpn]=useState(p=>!p)
-  const [show, setShow] = useState(Value)
 
   return (
-    <ContextValueData.Provider className="bag" value={show} >
+    <ContextValueData.Provider className="bag"  >
       <div className="parent" style={{display: "flex"}}>
         <div className="col1">
         <h4 id="title">Total Rewards 'Irresistibility' Survey</h4>
         </div>
         <div className="col2" >
-          <MenuIcon className="menu" onClick={()=>setShow(p=>!p)}/>
+          <MenuIcon className="menu" />
 
         </div>
         <div className="col3">
-          <img src={Logo} alt="" className="logo"/>
+          {/* <img src={Logo} alt="" className="logo"/> */}
         </div>
       </div>
      <Content/>
